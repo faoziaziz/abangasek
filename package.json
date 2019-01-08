@@ -1,0 +1,16 @@
+{
+  "name": "AbangAsek",
+  "version": "0.0.1",
+  "description": "Buat coba pake express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": "https://github.com/faoziaziz/abangasek",
+  "author": "Aziz Amerul Faozi",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
