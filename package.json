@@ -4,13 +4,30 @@
   "description": "Buat coba pake express",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node src/app21.js"
   },
   "repository": "https://github.com/faoziaziz/abangasek",
   "author": "Aziz Amerul Faozi",
   "license": "MIT",
   "dependencies": {
+    "compression": "^1.7.3",
+    "connect-busboy": "^0.0.2",
+    "connect-timeout": "^1.9.0",
     "ejs": "^2.6.1",
-    "express": "^4.16.4"
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.4",
+    "jade": "^1.11.0",
+    "method-override": "^3.0.0",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "response-time": "^2.3.2",
+    "serve-favicon": "^2.5.0",
+    "serve-index": "^1.9.1",
+    "stylus": "^0.54.5",
+    "vhost": "^3.0.2"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
   }
 }
